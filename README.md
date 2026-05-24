@@ -1,8 +1,11 @@
 # SURGE: Optimal Hedging under Transaction Costs
 
 **Researcher:** Aditya Mishra, IIT Kanpur
+
 **Program:** SURGE Undergraduate Research
+
 **Supervisor:** *Dr. Akash Anand*
+
 **Duration:** *May 12, 2026 - July 12, 2026*
 
 ---
