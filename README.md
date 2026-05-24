@@ -10,14 +10,31 @@
 
 ---
 
-## Project Overview
+## Project Overview: Optimal Hedging under Transaction Costs
 
-This repository documents an ongoing research project on **optimal options hedging strategies under transaction costs**. The project explores how transaction costs affect classical hedging strategies (e.g., Black-Scholes delta hedging) and investigates optimal rebalancing rules using:
+This repository documents a comprehensive numerical verification of the Hodges and Neuberger (1989) optimal hedging model. While the classical Black-Scholes framework relies on continuous, costless rebalancing, real-world markets impose proportional transaction costs that make perfect replication infinitely expensive. 
 
-- **Stochastic Calculus** — Itô's lemma, SDEs, Brownian motion
-- **Discrete Binomial Lattices** — Approximating continuous option pricing models
-- **Finite-Difference PDE Solvers** — Numerically solving the Black-Scholes PDE
+To resolve this, this project reformulates the hedging process as a stochastic optimal control problem, seeking a dynamic strategy that maximizes the expected exponential utility of terminal wealth. The result is a mathematically rigorous "no-trade region" that optimally balances hedging error against transaction costs.
 
+This research bridges continuous-time financial mathematics with discrete numerical implementation, relying on three core pillars:
+
+### 1. Theoretical & Mathematical Framework
+* **Stochastic Calculus:** Foundations in measure-theoretic probability, martingales, and Itô's lemma.
+* **Optimal Control:** Derivation of the Hamilton-Jacobi-Bellman (HJB) equation and the cash-independence factorization strictly unique to exponential utility.
+* **Free-Boundary Problems:** Application of smooth-pasting conditions to analytically define the buy/sell boundaries.
+* **The SDE-PDE Correspondence:** Unifying stochastic expectations and deterministic PDEs via the Feynman-Kac theorem and the Kolmogorov Backward Equation.
+
+### 2. Computational Architecture
+The project verifies the optimal strategy by ensuring agreement across three independent computational routes:
+* **SDE Simulation:** Vectorized Euler-Maruyama schemes to simulate Geometric Brownian Motion and evaluate discrete delta/Leland heuristic hedging.
+* **Discrete Dynamic Programming:** Backward induction on Cox-Ross-Rubinstein (CRR) binomial lattices to compute the no-trade boundaries without continuous-time machinery.
+* **Finite-Difference Solvers:** Crank-Nicolson PDE solvers tailored for free-boundary parabolic PDEs.
+
+### 3. Headline Reproductions
+This repository successfully reproduces the core findings of the original Hodges-Neuberger paper:
+* **Graph A:** Numerical computation of the no-trade region boundaries $(x_{-}, x_{+})$ as a function of the transaction cost rate.
+* **Graph C:** Analytical extraction of the asymptotic boundary behavior via Newton's method on the reduced 1D system.
+* **The Efficient Frontier:** Extensive Monte Carlo verification demonstrating that the extracted H&N strategy Pareto-dominates both naive continuous hedging and Leland's volatility adjustment.
 ---
 
 ## Repository Structure
@@ -61,9 +78,9 @@ pip install -r requirements.txt
 
 | Week | Topic | Status |
 |------|-------|--------|
-| Week 1 | *(To be updated)* | 🔄 In Progress |
-| Week 2 | Scaled Random Walks & Brownian Motion | 🔄 In Progress |
-| Week 3 | *(To be updated)* | ⏳ Upcoming |
+| Week 1 | *(To be updated)* |  In Progress |
+| Week 2 | Scaled Random Walks & Brownian Motion |  In Progress |
+| Week 3 | *(To be updated)* |  Upcoming |
 
 ---
 
