@@ -2,8 +2,8 @@
 
 **Researcher:** Aditya Mishra, IIT Kanpur
 **Program:** SURGE Undergraduate Research
-**Supervisor:** *(Add supervisor name)*
-**Duration:** *(Add duration, e.g., May – July 2026)*
+**Supervisor:** *Dr. Akash Anand*
+**Duration:** *May 12, 2026 - July 12, 2026*
 
 ---
 
@@ -66,6 +66,9 @@ pip install -r requirements.txt
 
 ## 📚 References
 
-*(Add key papers and textbooks as you progress)*
-- Shreve, S. — *Stochastic Calculus for Finance*
+- Hodges & Neuberger (1989), “Optimal Replication of Contingent Claims
+  Under Transactions Costs.”
+- Shreve, Stochastic Calculus for Finance II (Springer, 2004)
+- Higham (2001), “An algorithmic introduction to numerical simulation of
+  stochastic differential equations,” SIAM Review 43(3)
 - Wilmott, P. — *Paul Wilmott on Quantitative Finance*
