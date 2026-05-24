@@ -1,0 +1,51 @@
+# ============================================================
+# .gitignore for SURGE Optimal Hedging Research Project
+# ============================================================
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual Environments ---
+surge_venv/
+venv/
+env/
+.venv/
+.env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Data & Output Files (keep raw data local, not on GitHub) ---
+*.csv
+*.xlsx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.parquet
+
+# --- IDE & Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs & Temp ---
+*.log
+*.tmp
+*.bak

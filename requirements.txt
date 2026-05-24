@@ -1,0 +1,23 @@
+# ============================================================
+# Python Dependencies — SURGE Optimal Hedging Research
+# ============================================================
+# Install with: pip install -r requirements.txt
+
+# --- Core Scientific Stack ---
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+
+# --- Jupyter ---
+jupyterlab
+notebook
+ipykernel
+
+# --- Quantitative Finance ---
+# Add specific libraries as the project evolves
+# e.g., QuantLib-Python, py_vollib
+
+# --- Utilities ---
+tqdm
