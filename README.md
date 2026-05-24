@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository documents an ongoing research project on **optimal options hedging strategies under transaction costs**. The project explores how transaction costs affect classical hedging strategies (e.g., Black-Scholes delta hedging) and investigates optimal rebalancing rules using:
 
@@ -17,7 +17,7 @@ This repository documents an ongoing research project on **optimal options hedgi
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 SURGE-Optimal-Hedging-under-transaction-costs/
@@ -37,7 +37,7 @@ SURGE-Optimal-Hedging-under-transaction-costs/
 
 ---
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 ```bash
 # Clone the repository
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📅 Weekly Progress
+## Weekly Progress
 
 | Week | Topic | Status |
 |------|-------|--------|
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 References
+## References
 
 - Hodges & Neuberger (1989), “Optimal Replication of Contingent Claims
   Under Transactions Costs.”
