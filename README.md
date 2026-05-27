@@ -79,8 +79,8 @@ pip install -r requirements.txt
 | Week | Topic | Status |
 |------|-------|--------|
 | Week 1 | *(To be updated)* |  In Progress |
-| Week 2 | Scaled Random Walks & Brownian Motion |  In Progress |
-| Week 3 | *(To be updated)* |  Upcoming |
+| Week 2 | Scaled Random Walks, Brownian Motion & Euler - Maruyama |  Completed |
+| Week 3 | *(To be updated)* |  In Progress |
 
 ---
 
