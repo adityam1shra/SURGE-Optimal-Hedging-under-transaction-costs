@@ -2,7 +2,7 @@
 
 **Researcher:** Aditya Mishra, IIT Kanpur
 
-**Program:** SURGE Undergraduate Research
+**Program:** SURGE 
 
 **Supervisor:** *Dr. Akash Anand*
 
