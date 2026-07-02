@@ -71,17 +71,6 @@ source surge_venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-
----
-
-## Weekly Progress
-
-| Week | Topic | Status |
-|------|-------|--------|
-| Week 1 | *(To be updated)* |  In Progress |
-| Week 2 | Scaled Random Walks, Brownian Motion & Euler - Maruyama |  Completed |
-| Week 3 | *(To be updated)* |  In Progress |
-
 ---
 
 ## References
@@ -92,3 +81,11 @@ pip install -r requirements.txt
 - Higham (2001), “An algorithmic introduction to numerical simulation of
   stochastic differential equations,” SIAM Review 43(3)
 - Wilmott, P. — *Paul Wilmott on Quantitative Finance*
+- Cox, Ross, Rubinstein (1979), “Option pricing: a simplified approach.”
+- Leland (1985), “Option pricing and replication with transactions costs,” J.
+  Finance 40(5): 1283–1301
+- Boyle & Emanuel (1980), “Discretely adjusted option hedges,” J. Financial
+  Economics 8: 259–82.
+- Fleming & Soner, Controlled Markov Processes and Viscosity Solutions
+  (2nd ed.), Ch. 2–3.
+- 
