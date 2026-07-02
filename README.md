@@ -37,26 +37,6 @@ This repository successfully reproduces the core findings of the original Hodges
 * **The Efficient Frontier:** Extensive Monte Carlo verification demonstrating that the extracted H&N strategy Pareto-dominates both naive continuous hedging and Leland's volatility adjustment.
 ---
 
-## Repository Structure
-
-```
-SURGE-Optimal-Hedging-under-transaction-costs/
-│
-├── README.md               ← You are here
-├── .gitignore              ← Files excluded from version control
-├── requirements.txt        ← Python dependencies
-│
-├── Week01/                 ← Week 1 assignments & explorations
-├── Week02/                 ← Week 2: Scaled Random Walks
-│   └── ScaledWalk.ipynb
-├── Week03/                 ← Week 3 assignments & explorations
-│
-└── src/                    ← Shared Python utility modules
-    └── __init__.py
-```
-
----
-
 ## Setup & Installation
 
 ```bash
